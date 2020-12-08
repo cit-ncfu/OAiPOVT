@@ -1,5 +1,5 @@
 Private M(99) As Double
-
+' This is a comment beginning at the left edge of the screen.
 Private Sub Command1_Click()
 Dim i As Integer
 List1.Clear
@@ -17,7 +17,7 @@ Do While i >= 0
     Sum = Sum + M(i)
     i = i - 1
 Loop
-MsgBox Sum, vbExclamation + vbOKOnly, "Not found"
+MsgBox Sum, vbExclamation + vbOKOnly, "Not found"  ' This is an inline comment.
 
 End Sub
 
