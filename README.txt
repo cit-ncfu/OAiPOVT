@@ -1,5 +1,5 @@
 Private M(99) As Double
-
+' This is a comment beginning at the left edge of the screen.
 Private Sub Command1_Click()
 Dim i As Integer
 List1.Clear
