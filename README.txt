@@ -17,7 +17,7 @@ Do While i >= 0
     Sum = Sum + M(i)
     i = i - 1
 Loop
-MsgBox Sum, vbExclamation + vbOKOnly, "Not found"
+MsgBox Sum, vbExclamation + vbOKOnly, "Not found"  ' This is an inline comment.
 
 End Sub
 
